@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                     val hola = "hola"
                     val prueba_rama_pb01_15 = "prueba_rama_pb01-15"
+                    val prueba_rama_pb01_15_2 = "prueba_rama_pb01-15"
                 }
             }
         }
