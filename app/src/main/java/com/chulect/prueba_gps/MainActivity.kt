@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Greeting("Android")
                     val hola = "hola"
+                    val prueba_jira_pb01_16 = "prueba_jira_pb01_16"
                 }
             }
         }
