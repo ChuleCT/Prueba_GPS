@@ -23,10 +23,10 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-                    val hola = "hola"
-                    val prueba_rama_pb01_15 = "prueba_rama_pb01-15"
-                    val prueba_rama_pb01_15_2 = "prueba_rama_pb01-15"
                     //prueba rama 17
+                    //commit 1
+                    //commit 2
+                    //commit 3
                 }
             }
         }

@@ -1,6 +1,9 @@
+import kotlin.script.experimental.api.ScriptCompilationConfiguration.Default.properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("org.sonarqube") version "4.4.1.3373"
 }
 
 android {
@@ -49,6 +52,15 @@ android {
     }
 }
 
+
+sonar {
+    properties {
+        property("sonar.projectKey", "ChuleCT_Prueba_GPS")
+        property("sonar.organization", "jesusct")
+        property("sonar.host.url", "https://sonarcloud.io")
+    }
+}
+
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
@@ -71,4 +83,6 @@ dependencies {
     testImplementation("org.mockito:mockito-core:3.12.4")
     testImplementation("org.mockito:mockito-inline:3.12.4")
     testImplementation("org.mockito:mockito-android:3.12.4")
+
+
 }
